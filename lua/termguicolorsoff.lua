@@ -3,7 +3,7 @@ local TermGuiColorsOff = {}
 
 --- main load function
 TermGuiColorsOff.load = function()
-  vim.cmd('set termguicolors&')
+  vim.opt.termguicolors = false
 end
 
 return TermGuiColorsOff
